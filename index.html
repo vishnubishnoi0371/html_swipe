@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper in HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link
+      href=" https://cdn.jsdelivr.net/npm/swiper@11.0.7/swiper-bundle.min.css "
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container mw_200 pt-5">
+      <!-- first slider  -->
+      <div class="swiper firstSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bg-black">
+              <p class="bg-black text-white p-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+                labore. Mollitia doloribus libero voluptatibus, magnam sint iure
+                voluptatem repellendus. Illo, expedita culpa! Suscipit porro
+                quaerat qui iste sint, voluptate magni consectetur dolor Quis,
+                exercitationem, ratione facere veritatis at consequuntur
+                doloribus earum quibusdam similique consectetur eius itaque
+                aliquid voluptatem asperiores laborum beatae aliquam harum
+                praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-black">
+              <p class="bg-black text-white p-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+                labore. Mollitia doloribus libero voluptatibus, magnam sint iure
+                voluptatem repellendus. Illo, expedita culpa! Suscipit porro
+                quaerat qui iste sint, voluptate magni consectetur dolor Quis,
+                exercitationem, ratione facere veritatis at consequuntur
+                doloribus earum quibusdam similique consectetur eius itaque
+                aliquid voluptatem asperiores laborum beatae aliquam harum
+                praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-black">
+              <p class="bg-black text-white p-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+                labore. Mollitia doloribus libero voluptatibus, magnam sint iure
+                voluptatem repellendus. Illo, expedita culpa! Suscipit porro
+                quaerat qui iste sint, voluptate magni consectetur dolor Quis,
+                exercitationem, ratione facere veritatis at consequuntur
+                doloribus earum quibusdam similique consectetur eius itaque
+                aliquid voluptatem asperiores laborum beatae aliquam harum
+                praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="bg-black text-white p-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+              ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+              possimus cum beatae recusandae nemo assumenda ad sapiente
+              quibusdam repellat sed impedit! Necessitatibus veniam laboriosam
+              quos itaque odio nemo corporis iste, voluptatum soluta fugiat
+              ratione facere veritatis at consequuntur doloribus earum quibusdam
+              similique consectetur eius itaque aliquid voluptatem asperiores
+              laborum beatae aliquam harum praesentium.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p class="bg-black text-white p-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+              ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+              possimus cum beatae recusandae nemo assumenda ad sapiente quidem,
+              possimus cum beatae recusandae nemo assumenda ad sapiente quidem,
+              itaque odio nemo corporis iste, voluptatum soluta fugiat ratione
+              facere veritatis at consequuntur doloribus earum quibusdam
+              similique consectetur eius itaque aliquid voluptatem asperiores
+              laborum beatae aliquam harum praesentium.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p class="bg-black text-white p-3">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+              ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+              ducimus at, ipsam quidem quaerat blanditiis obcaecati incidunt
+              fugiat! Illum necessitatibus molestias mollitia nam magni aut et
+              quidem, ut quam quaerat, quibusdam tenetur incidunt labore.
+              ratione facere veritatis at consequuntur doloribus earum quibusdam
+              similique consectetur eius itaque aliquid voluptatem asperiores
+              laborum beatae aliquam harum praesentium.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@11.0.7/swiper-bundle.min.js "></script>
+    <script>
+      const swiper = new Swiper(".firstSwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        Infinity:true,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        effect: "",
+        cubeEffect: {
+          blur: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+      });
+    </script>
+  </body>
+</html>
